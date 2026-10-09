@@ -1,8 +1,28 @@
-# R session and project files
+# R history and session data
 .Rhistory
+.Rapp.history
 .RData
+.RDataTmp
 .Ruserdata
 .Rproj.user/
+.Renviron
+.env
+.httr-oauth
+
+# R build and check output
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+
+# R Markdown and generated documentation
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+vignettes/*.html
+vignettes/*.pdf
+docs/
+po/*~
 
 # Local caches
 R.cache/
@@ -12,5 +32,5 @@ CACHEDIR.TAG
 # Machine-specific editor settings
 .vscode/
 
-# shinyapps.io deployment metadata
+# Deployment metadata
 rsconnect/
