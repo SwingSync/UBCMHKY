@@ -1,0 +1,16 @@
+# R session and project files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local caches
+R.cache/
+styler/
+CACHEDIR.TAG
+
+# Machine-specific editor settings
+.vscode/
+
+# shinyapps.io deployment metadata
+rsconnect/
